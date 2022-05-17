@@ -188,18 +188,20 @@ int main(void)
  * Programming Activities
  * 
  * 1. Pressing and holding SW2 or SW3 causes the brightness of LED D3 to
- *    repeatedly cycle through its entire brightness range. Modify the code so
+ *    repeatedly cycle through its entire brightness range because the tOnLED3
+ *    variable is allowed to either overflow, or underflow. Modify the code so
  *    that pressing and holding SW2 will dim the LED until it is off and then
  *    keep if off, and pressing and holding SW3 will brighten the LED and
  *    maintain it at its maximum brightness.
  * 
  * 2. Modify your program to control the brightness of two LEDs simultaneously.
- *    Add code to control LED D4 using SW4 and SW5 while using SW3 and SW2 to
- *    control LED D3. (Hint: To ensure each LED can reach maximum brightness --
- *    or -- 100% PWM on-time -- you'll have to perform both LEDs PWM functions
- *    in the same loop. You can see the resulting PWM wave if you have access
- *    to an oscilloscope. If not, just light LED2 and LED5 at the start of your
- *    program and compare the brightness of LEDs D3 and D4 to them.
+ *    Add code to control LED D4 using SW4 and SW5 while still using SW3 and
+ *    SW2 to control LED D3. (Hint: To ensure each LED can reach maximum
+ *    brightness -- or 100% PWM on-time -- you'll have to perform the PWM
+ *    functions for both LEDs in the same loop. You can see the resulting PWM
+ *    wave if you have access to an oscilloscope. If not, to ensure your LEDs
+ *    reach full brightness, light LED2 and LED5 at the start of your program
+ *    and compare their brightness to LEDs D3 and D4.
  * 
  * 3. Rather than having lights suddenly turn on at full brightness, or motors
  *    turn on at full power, create a program that uses a for loop and your PWM
