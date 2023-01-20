@@ -1,6 +1,6 @@
 /*==============================================================================
- Project: Intro-3-Loops
- Date:    April 2, 2022
+ Project: Intro-3-Loops                 Activity: mirobo.tech/ubmp4-intro-3
+ Date:    January 20, 2023
  
  This example program demonstrates the use of while and for loop structures to
  change the brightness of LEDs using PWM (Pulse-Width Modulated) signals.
