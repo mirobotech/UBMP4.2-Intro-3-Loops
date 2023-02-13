@@ -1,12 +1,13 @@
 /*==============================================================================
  Project: Intro-3-Loops                 Activity: mirobo.tech/ubmp4-intro-3
- Date:    January 20, 2023
+ Date:    February 13, 2023
  
- This example program demonstrates the use of while and for loop structures to
- change the brightness of LEDs using PWM (Pulse-Width Modulated) signals.
+ This introductory programming activity for the mirobo.tech UBMP4 demonstrates
+ the use of both while- and for-loop structures to change the brightness of an
+ LED using PWM (Pulse-Width Modulation).
  
  Additional program analysis and programming activities expand the use of loops
- to create tones of different pitches and frequency sweeps.
+ to create tones of different pitches, and audio frequency sweeps.
 ==============================================================================*/
 
 #include    "xc.h"              // Microchip XC8 compiler include file
